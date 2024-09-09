@@ -6,9 +6,9 @@
 *Vous pouvez utiliser _ ou * autour d'un mot pour le mettre en italique. Mettez-en deux pour le mettre en gras.*
 
 ## insertion d'une image
-![la belle image](./img/image.jpg)
+![la belle image](./chemin/vers/image.jpg)
 
-<img src="./img/image.jpg" alt="la belle image" 
+<img src="./chemin/vers/image.jpg" alt="la belle image" 
 	width="200" height="300" 
 	style="border: 2px solid blue;
 	float: right;">
@@ -94,25 +94,5 @@ idgeo@GS4:/mnt/c/rc/A5/github/repertoire_git$ git commit -m "1er versement"
  create mode 100644 img/image.jpg
  create mode 100644 readme.md
  
- ------------------------------------------------------
- 
-vérification:   idgeo@GS4:/mnt/c/rc/A5/github/repertoire_git$ git status
-```git status```
-On branch master
-nothing to commit, working tree clean 
 
-###### pour modifier le md dans bash
-```nano readme.md```
-
-#### voir les logs
-```git log``` 
- 
--------------------------------------------
-idgeo@GS4:/mnt/c/rc/A5/github/repertoire_git$ git log
-commit cced0f218b79320fc7b4b3d8da5720f19a781dc8 (HEAD -> master)
-Author: romain1608 <romaincpgeom@gmail.com>
-Date:   Mon Sep 9 12:06:56 2024 +0200
-1er versement
-
-------------------------------------------
 
